@@ -8,6 +8,7 @@ struct TrieNode {
     TrieNode() : prefixCount(0), isEndOfWord(false), children(26, nullptr) {}
 };
 
+
 class Trie {
 private:
     TrieNode* root;

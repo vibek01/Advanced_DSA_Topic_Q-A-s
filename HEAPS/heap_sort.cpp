@@ -10,6 +10,7 @@ void heapifyDown(vector<int>& arr, int index, int size) {
             largest = leftChild;
         }
         
+
         if (rightChild < size && arr[rightChild] > arr[largest]) {
             largest = rightChild;
         }
