@@ -12,6 +12,7 @@ private:
     TrieNode* root;
 public:
     Trie() {
+        
         root = new TrieNode();
     }
     void insertWord(const string& word) {
