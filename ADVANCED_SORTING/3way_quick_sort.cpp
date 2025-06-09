@@ -7,6 +7,7 @@ void threeWayQuickSort(vector<int>& arr, int left, int right) {
     int lt = left;
     int gt = right;
     int i = left;
+    
     while (i <= gt) {
         if (arr[i] < pivot) {
             swap(arr[lt], arr[i]);
